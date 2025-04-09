@@ -5,7 +5,7 @@ Route::group(['middleware' => 'web', 'prefix' => \Helper::getSubdirectory(), 'na
     Route::get('/', 'FetchNowController@index');
     Route::get('/fetch-emails', function() {
         Artisan::call('freescout:fetch-emails', [
-            '--days' => 3,
+            '--days' => 7,
             '--unseen' => 0
         ]);
         return redirect()->back()->with('success', 'Emails fetched successfully!');
