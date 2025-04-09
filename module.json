@@ -1,0 +1,22 @@
+{
+    "name": "FetchNow",
+    "alias": "fetchnow",
+    "description": "A module for that adds a Fetch now button for all users",
+    "version": "1.0.0",
+    "detailsUrl": "",
+    "author": "",
+    "authorUrl": "",
+    "requiredAppVersion": "1.0.2",
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "active": 0,
+    "order": 0,
+    "providers": [
+        "Modules\\FetchNow\\Providers\\FetchNowServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

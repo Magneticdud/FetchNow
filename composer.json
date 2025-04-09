@@ -1,0 +1,25 @@
+{
+    "name": "magneticdud/fetchnow",
+    "description": "",
+    "authors": [
+        {
+            "name": "magneticdud",
+            "email": "Magneticdud@noreply.github.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\FetchNow\\Providers\\FetchNowServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\FetchNow\\": ""
+        }
+    }
+}
