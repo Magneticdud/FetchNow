@@ -18,5 +18,7 @@
     "files": [
         "start.php"
     ],
-    "requires": []
+    "requires": [],
+    "latestVersionUrl": "https://raw.githubusercontent.com/Magneticdud/FetchNow/refs/heads/main/module.json",
+    "latestVersionZipUrl": "https://github.com/Magneticdud/FetchNow/archive/refs/heads/main.zip"
 }
