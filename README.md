@@ -8,7 +8,7 @@ A module for freescout that adds a "Fetch now" button for all users
 
 **As of now, there is no public-facing button.** 🤦‍♂️
 
-Simply navigate to `yourfreescoutURL.com/fetch-emails` to fetch the latest 3 days of emails, including read emails.  
+Simply navigate to `yourfreescoutURL.com/fetch-emails` to fetch the latest 7 days of emails, including read emails.  
 
 Yes I was lazy, so all this module does is to register a route in `/fetch-emails` which then will call `php artisan freescout:fetch-emails --days=7 --unseen=0` to get new emails from server from last 7 days. Yes, that's it, I literally took more time to write this readme than actual developing. Just took an empty module and added the route. 😅
 
