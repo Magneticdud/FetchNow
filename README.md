@@ -4,6 +4,16 @@
 
 A module for freescout that adds a "Fetch now" button for all users
 
+## Installation
+
+1. Browse to your `Modules` directory
+2. `wget https://github.com/Magneticdud/FetchNow/archive/refs/heads/main.zip`
+3. `unzip main.zip && rm main.zip`
+4. `mv FetchNow-main/ FetchNow/` (‼️⚠️‼️ IMPORTANT, because otherwise you will get a `production.ERROR: Class "Modules\FetchNow\Providers\FetchNowServiceProvider" not found` exception)
+5. `chown -R nginx:www-data FetchNow` (this is because I am using [Tiredofit's docker image](https://github.com/tiredofit/docker-freescout), otherwise adapt to your www user)
+6. Enable it in `yourfreescoutURL.com/modules/list`
+7. If and when updates are released, they will get listed in the modules installation page.
+
 ## How to use
 
 **As of now, there is no public-facing button.** 🤦‍♂️
