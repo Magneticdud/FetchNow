@@ -1,6 +1,6 @@
 # FetchNow 📩
 
-![A lousy icon for this program, depicting a flying email](https://raw.githubusercontent.com/Magneticdud/FetchNow/refs/heads/main/icon.jpg)
+![A lousy icon for this program, depicting a flying email](https://raw.githubusercontent.com/Magneticdud/FetchNow/refs/heads/main/icon.png)
 
 A module for freescout that adds a "Fetch now" button for all users
 
